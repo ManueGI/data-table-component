@@ -1,33 +1,28 @@
-# data-table-component
+# data-table-component-gif
 
 Simple React table component with sorting, searching and pagination.
 
 ## Installation
 
 ```bash
-npm install data-table-component
+npm install data-table-component-gif
 ```
 
-(or yarn add data-table-component)
+(or yarn add data-table-component-gif)
 
 ## Usage
 
 ```jsx
-import React from 'react';
-import { DataTable } from 'data-table-component';
+import React from "react";
+import { DataTable } from "data-table-component-gif";
 
 const columns = [
-  { key: 'firstName', label: 'First Name' },
-  { key: 'lastName', label: 'Last Name' }
+  { key: "firstName", label: "First Name" },
+  { key: "lastName", label: "Last Name" },
 ];
-const data = [
-  { firstName: 'Alice', lastName: 'Smith' }
-];
+const data = [{ firstName: "Alice", lastName: "Smith" }];
 
 function App() {
-  return (
-    <DataTable data={data} columns={columns} itemsPerPage={5} />
-  );
+  return <DataTable data={data} columns={columns} itemsPerPage={5} />;
 }
 ```
-
