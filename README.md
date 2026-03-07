@@ -26,3 +26,11 @@ function App() {
   return <DataTable data={data} columns={columns} itemsPerPage={5} />;
 }
 ```
+
+> **Style note**
+>
+> Styling is provided via a CSS file in the package. You can import it anywhere you use the `DataTable` component:
+>
+> ```js
+> import "data-table-component-gif/dist/data-table-component-gif.css";
+> ```
