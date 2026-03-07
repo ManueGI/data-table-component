@@ -34,5 +34,3 @@ function App() {
 > ```js
 > import "data-table-component-gif/dist/data-table-component-gif.css";
 > ```
->
-> **TypeScript users:** the package includes its own `.d.ts` file, so no additional `@types` dependency is required. You'll get full typings when importing `DataTable`.

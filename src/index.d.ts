@@ -35,4 +35,4 @@ export interface DataTableProps {
 /**
  * Simple data table with sorting, filtering and pagination.
  */
-export function DataTable(props: DataTableProps): JSX.Element;
+export function DataTable(props: DataTableProps): React.JSX.Element;
