@@ -1,6 +1,6 @@
 {
   "name": "data-table-component-gif",
-  "version": "0.0.6",
+  "version": "0.0.10",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,14 +27,12 @@
   },
   "files": [
     "dist",
-    "README.md",
-    "src/index.d.ts"
+    "README.md"
   ],
   "main": "dist/data-table-component.cjs.js",
-  "types": "src/index.d.ts",
   "module": "dist/data-table-component.es.js",
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
+    "url": "https://github.com/ManueGI/data-table-component"
   }
 }
